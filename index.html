@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swami Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Alfa Slab One', cursive;
+        /* color: seashell; */
+        margin: 0px;
+        padding: 0px;
+        background-image: url('Img/sports-1962574_1920.jpg');
+        /* background-size: 900px 600px;
+            background-repeat: no-repeat; */
+    }
+
+
+    .left {
+        position: absolute;
+
+        left: 34px;
+        top: 15px;
+        display: inline-block;
+        border: 0px solid red;
+        border-radius: 12px;
+
+    }
+
+    .left img {
+        width: 101px;
+        border-radius: 11px;
+    }
+
+    .left div {
+        text-align: left;
+        color: black;
+    }
+
+    .mid {
+        display: block;
+        width: 67%;
+        margin: 141px auto;
+        border: 3px solid rgb(24, 21, 21);
+        border-radius: 21px;
+    }
+
+    .right {
+
+        position: absolute;
+        right: 35px;
+        top: 45px;
+        display: inline-block;
+        /* border: 3px solid red; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 21px;
+		text-shadow:2;
+		text-styl:bold;e
+    }
+
+    .navbar li a {
+        color: #38957b;
+        padding: 34px 23px;
+        text-decoration: none;
+
+    }
+
+    .navbar li :hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray
+    }
+
+    .btn {
+        font-family: 'Alfa Slab One', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: ivory;
+        padding: 7px 18px;
+        border: 2px solid gray;
+        border-radius: 12px;
+        font-size: 18px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(253, 123, 47);
+    }
+
+    .container {
+        /*border: 2px solid green;*/
+        margin: -89px 28%;
+        padding: 2px 2px;
+        width: 43%;
+        border-radius: 7px;
+
+    }
+
+    .formgroup input {
+        text-align: center;
+        font-family: 'Alfa Slab One', cursive;
+        display: block;
+        width: 400px;
+        padding: 1px;
+        /*border: 2px solid black;
+        border-radius: 8px;*/
+        font-size: 18px;
+        margin: 9px auto;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for nevbar -->
+        <div class="left">
+            <img src="Img/04012019-28.jpg" alt="">
+            <div> <strong> <i>Swami Fitness</i></strong></div>
+            </ul>
+        </div>
+        <!-- Mid box for nevbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculatior</a></li>
+                <li><a href="#">Contact us</a></li>
+        </div>
+        <!-- Right box for nevbar -->
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Jion the best Gym of Basti Now</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Contact No.">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+       
+    </div>
+   
+</body>
+
+</html>
